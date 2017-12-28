@@ -19,3 +19,7 @@ The tests are written using [kubetest](https://github.com/garethr/kubetest), pow
 You can set here all the various configurations of your templates, and even have multiple values files for different tests.
 * The tests, located at `demo/tests/tests.sky` running the validation on the configuration files.
 Take a look at the test, it is pretty simple - testing the the `nameOverride` from the `values.yaml` actually used. Feel free to modify the tests and watch it broken.
+
+## What missing?
+* Docker file - with all the dependencies, to make it easier to run the tests
+* Add CI to the demo, make it easier to understand how to run the tests

@@ -1,0 +1,5 @@
+def test_name_should_be_service_name():
+    name = spec["metadata"]["name"]
+    assert_equal(name, "RELEASE-NAME-sample", "name should be the service name")
+
+test_name_should_be_service_name()
